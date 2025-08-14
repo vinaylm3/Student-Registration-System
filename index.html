@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Registration System</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
@@ -11,28 +12,37 @@
         <p>Students can register their details, such as name, class, address, and contact number. They can also edit and delete records.</p>
     </header>
     <main>
-        <section>
+        <section class="registerSection">
             <form action="">
-                <h2>Register New Student</h2>
-                <label for="student_name">Student Name:</label>
-                <input type="text" id="student_name" name="student_name" required><br><br>
+                <h2 class="registerLabel">Register New Student</h2>
+                <div class="registerForm">
+                    <label for="student_name">Student Name:</label>
+                    <input type="text" id="student_name" name="student_name" required><br><br>
                 
-                <label for="student_id">Student ID:</label>
-                <input type="text" id="student_id" name="student_id" required><br><br>
+                    <label for="student_id">Student ID:</label>
+                    <input type="text" id="student_id" name="student_id" required><br><br>
                 
-                <label for="student_email">Email:</label>
-                <input type="email" id="student_email" name="student_email" required><br><br>
+                    <label for="student_email">Email:</label>
+                    <input type="email" id="student_email" name="student_email" required><br><br>
                 
-                <label for="student_contact">Contact Number:</label>
-                <input type="tel" id="student_contact" name="student_contact" required><br><br>
+                    <label for="student_contact">Contact Number:</label>
+                    <input type="tel" id="student_contact" name="student_contact" required><br><br>
                 
-                <button type="submit">Register</button>
+                    <button type="submit">Register</button>
+                </div>
             </form>
         </section>
 
-        <section>
-            <h2>Registered Students</h2>
-            <div><h3>Student Name</h3><h3>Student ID</h3><h3>Email</h3><h3>Contact Number</h3></div>
+        <section class="registerSection registeredSection">
+            <h2 class="registerLabel">Registered Students</h2>
+            <div class="registeredHeader">
+                <h3>Student Name</h3>
+                <h3>Student ID</h3>
+                <h3>Email</h3>
+                <h3>Contact Number</h3>
+                <h3>Edit</h3>
+                <h3>Delete</h3>
+            </div>
         </section>
     </main>
 </body>

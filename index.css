@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #93DA97;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+main {
+    display: flex;
+}
+
+.registerLabel {
+    background-color: #93DA97;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px 10px 0 0;
+}
+
+.registerSection {
+    background-color: #E8FFD7;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 30%;
+}
+
+.registeredSection {
+    width: 70%;
+}
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}   
+
+.registeredHeader {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #93DA97;
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
