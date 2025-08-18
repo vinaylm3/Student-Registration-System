@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Registration System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,16 +19,16 @@
             <h2>Register a Student</h2>
             <form id="studentForm">
                 <label for="name">Student Name:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name">
 
                 <label for="studentId">Student ID:</label>
-                <input type="number" id="studentId" name="studentId" required>
+                <input type="number" id="studentId" name="studentId">
 
                 <label for="email">Email ID:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email">
 
                 <label for="contact">Contact Number:</label>
-                <input type="tel" id="contact" name="contact" required>
+                <input type="tel" id="contact" name="contact" minlength="10">
 
                 <button type="submit">Register</button>
             </form>
@@ -52,5 +53,7 @@
             </table>
         </section>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
