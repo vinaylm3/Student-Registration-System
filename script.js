@@ -36,7 +36,7 @@ function updateStudentList() {
 }
 
 // Form Submission
-form.addEventListener('submit', function(event) {
+form.addEventListener('submit', function(event) { 
     event.preventDefault(); // Prevent the default form submission
 
     // Get form data
