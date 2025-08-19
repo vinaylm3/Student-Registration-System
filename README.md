@@ -28,3 +28,7 @@ It allows students to register their details, view, edit, and delete records wit
 - **JavaScript (ES6)** - Logic, Validation, LocalStorage
 
 ---
+
+## GitHub Link
+
+- https://github.com/vinaylm3/Student-Registration-System
